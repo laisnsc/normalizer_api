@@ -33,14 +33,14 @@ de response. Considere a consulta geral de pedidos e, também, a inclusão de fi
 
 
 # Key words
-Testes
-Lógica
-Simplicidade
-SOLID
-Linguagem (não estamos falando de framework)
-Automação (Ex: Build, Coverage)
-Desenho da API
-Git
+* Testes
+* Lógica
+* Simplicidade
+* SOLID
+* Linguagem (não estamos falando de framework)
+* Automação (Ex: Build, Coverage)
+* Desenho da API
+* Git
 
 ### Tecnologias usadas
 ```
@@ -51,15 +51,14 @@ O banco de dados utilizado para persistência dos dados foi SQLite.
 
 ### Para rodar o projeto:
 ```
-$ git clone git clone https://github.com/laisnsc/normalizer_api.git
-```
-```
+$ git clone https://github.com/laisnsc/normalizer_api.git
+
 $ bundle install
-```
-```
+
 $ rails db:create db:migrate
 ```
 
 ### Documentação dos endpoints (Postman)
-
+```
 https://documenter.getpostman.com/view/18568837/2sAY55ZxLp    
+```
