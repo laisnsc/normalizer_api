@@ -11,7 +11,7 @@ class NormalizerService
 
   def process_data
     normalized_data = normalize_data(@data)
-    # persist_data(normalized_data)
+    persist_data(normalized_data)
     filters = build_data_filters(normalized_data['order_ids'])
     generate_response(filters)
   end
